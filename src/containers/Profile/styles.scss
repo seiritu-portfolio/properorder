@@ -1,0 +1,32 @@
+.profile-header {
+  background: rgba(255, 230, 186, 0.7);
+  padding-bottom: 1rem;
+
+  @media only screen and (min-width: 768px) {
+    height: 265px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 75%, 0 100%);
+  }
+}
+
+
+.profile-main-heading {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000;
+  margin-top: 6.5rem;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 2rem;
+    margin-top: 6rem;
+  }
+}
+
+.profile-container {
+  @media only screen and (min-width: 768px) {
+    margin-top: -5.5rem;
+  }
+}
+
+.active-link {
+  background-color: #000;
+}

@@ -1,0 +1,28 @@
+.add-discount-modal-container {
+  width: 90vw;
+}
+
+@media (min-width: 640px) {
+  .add-discount-modal-container {
+    width: 482px;
+  }
+}
+
+.add-discount-success-text {
+  font-size: 0.875rem;
+  line-height: 1.357em;
+  letter-spacing: -0.01em;
+}
+
+.add-discount-you-save {
+  font-size: 0.8125rem;
+  line-height: 1.357em;
+  letter-spacing: -0.01em;
+}
+
+.add-discount-failed-text {
+  font-size: 0.875rem;
+  line-height: 1.357em;
+  letter-spacing: -0.01em;
+  margin-top: 0.2rem;
+}

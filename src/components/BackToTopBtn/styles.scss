@@ -1,0 +1,14 @@
+.btt-button {
+  position: fixed;
+  height: 2.6rem;
+  width: 2.6rem;
+  bottom: 0.6rem;
+  right: 0.6rem;
+  border-radius: .7rem;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.btt-button:hover {
+  background-color: #FFE6BA;
+}

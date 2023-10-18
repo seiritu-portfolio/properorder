@@ -1,0 +1,31 @@
+.app-side-bar {
+  width: 21.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.35em;
+
+  @apply text-black;
+
+  &__logout {
+    @apply text-po-red;
+  }
+}
+
+.button {
+  width: 118px;
+}
+
+.or {
+  left: 104px;
+  top: 4px;
+}
+
+.item-icon {
+  width: 4px;
+  height: 19px;
+}

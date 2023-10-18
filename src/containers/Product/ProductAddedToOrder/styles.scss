@@ -1,0 +1,28 @@
+.small-product-card-title {
+  font-size: 7px;
+
+  @media only screen and (min-width: 640px) {
+    font-size: 0.75rem;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 0.9rem;
+  }
+
+}
+
+.added-to-order-product-item {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 10px 10px 0 10px;
+  @apply rounded-lg border border-po-primary relative;
+
+  @media only screen and (min-width: 768px) {
+    width: 30%;
+  }
+
+  @media only screen and (min-width: 1280px) {
+    width: 20%;
+  }
+}

@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 3.5vw;
+}
+
+@media (min-width: 640px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 24px;
+}
+
+code {
+    font-family: Nunito, sans-serif;
+}
+
+.rectangle-container {
+    border-radius: 12px;
+    box-shadow: 0 10px 20px 0 #734F191A;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.16em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.35em;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.333em;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1em;
+}
+
+.description {
+    font-size: 0.875rem;
+}
+
+.mark {
+    font-size: 0.5rem;
+    color: #81818E;
+}
+
+.modal-title {
+    font-weight: 600;
+    font-size: 1.3rem;
+    /* line-height: 1.875em; */
+}
+
+.step-text {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.75rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    line-height: 1.5em;
+
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+
+    background: conic-gradient(from 180deg at 50% 50%, #FFB860 0deg, #FFB14F 0.04deg, #FFE1AD 69.37deg, #FFB860 360deg);
+}
+
+@media (min-width: 748px) {
+    .mark,
+    .step-text {
+        font-size: 1rem;
+    }
+
+
+}
+
+.pac-container {
+    z-index: 10000;
+}
+
+.pac-item {
+    padding: 0.5rem 0.75rem;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.pac-matched {
+    color: #FFBB66;
+}
+
+.pac-icon {
+    background: url("./assets/Location.svg") no-repeat center !important;
+    margin-top: 0.3rem;
+}
+
+.pac-target-input {
+    font-weight: normal;
+    font-size: 1.1rem;
+    letter-spacing: -0.01px;
+
+    @apply text-black;
+}
+
+.pac-target-input:focus {
+    outline: none;
+}
+
+.srv-validation-message {
+    margin-top: 6px;
+    color: #F36262;
+}
+
+.po-validation-message {
+    margin-top: 6px;
+    color: #F36262;
+    font-size: 0.875rem;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.auth-order-summary-container {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .auth-order-summary-container {
+        display: block;
+    }
+}
+
+input[type="search"]:hover::-webkit-search-cancel-button {
+    cursor: pointer;
+    color: #23232D;
+}
+
+.lazy-load-image-loaded {
+    display: flex !important;
+}
+
+.MuiTabScrollButton-root.Mui-disabled {
+    opacity: 0;
+    display: none !important;
+}
+
+.public-DraftStyleDefault-block {
+    margin: 0 !important;
+}
+
+.DraftEditor-editorContainer {
+    padding: 0.5rem 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

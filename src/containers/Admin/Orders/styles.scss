@@ -1,0 +1,33 @@
+.db-order-th {
+  @apply px-4 py-3 text-left text-sm font-medium text-gray-600 tracking-wider;
+}
+
+.db-order-filter-label {
+  @apply mb-2 font-semibold;
+}
+
+.db-order-price-input {
+  width: 30%;
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+  @apply py-3 px-4 text-sm font-semibold focus:outline-none border border-po-graylight rounded-lg ;
+}
+
+.db-order-select-container {
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+  @apply border rounded-lg border-po-graylight px-2 py-1 bg-white;
+}
+
+.db-order-loader-container {
+  padding-top: 64px;
+  @apply flex flex-row items-center justify-center pb-12;
+}
+
+.update-order-status-modal-container {
+  width: 80vw;
+}
+
+@media (min-width: 640px) {
+  .update-order-status-modal-container {
+    width: 550px;
+  }
+}

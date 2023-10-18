@@ -1,0 +1,17 @@
+.w-92 {
+  width: 23rem;
+}
+
+.search-bar {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+}
+
+.search-bar-focus {
+  box-shadow: 0 0 10px 3px rgba(255, 170, 19, 0.2);
+}
+
+.search-bar-warning {
+  box-shadow: 0 0 10px 3px rgba(251, 24, 24, 0.2);
+}

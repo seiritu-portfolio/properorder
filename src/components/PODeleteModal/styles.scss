@@ -1,0 +1,19 @@
+.delete-modal-container {
+  @apply flex flex-col bg-white relative;
+  width: 80vw;
+
+  @media (min-width: 640px) {
+    width: 584px;
+  }
+}
+
+.delete-modal-header-bar {
+  height: 17px;
+  @apply absolute w-full bg-po-reddark flex justify-center;
+}
+
+.delete-modal-header-mark {
+  width: 60px;
+  height: 60px;
+  @apply rounded-full bg-po-reddark self-center flex items-center justify-center;
+}

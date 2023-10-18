@@ -1,0 +1,63 @@
+.back {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-title {
+  font-family: Sorts Mill Goudy, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7rem;
+  line-height: 1.437em;
+  align-items: center;
+  letter-spacing: -0.004em;
+
+  @media (min-width: 360px) {
+    font-size: 1.8rem;
+  }
+
+  @apply text-black;
+}
+
+.current-location-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.recent-addresses-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-use {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.auto-complete-container {
+  height: 3.4375rem;
+  border-radius: 1rem;
+  @apply flex flex-row flex-1 items-center;
+}
+
+.input-comingsoon {
+  border: 1px solid #F0F0F5;
+}
+
+.input-comingsoon:focus {
+  outline: none;
+  background: #FFFFFF;
+  border: 1px solid #FFE6BA;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px rgba(255, 170, 19, 0.2);
+}
+
+.disableClick {
+  pointer-events: none;
+}
+
+
+.hidden-input {
+  position: absolute;
+  left: -5000px;
+}

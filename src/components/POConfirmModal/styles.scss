@@ -1,0 +1,13 @@
+.confirm-modal-container {
+  @apply flex flex-col bg-white relative;
+  width: 80vw;
+
+  @media (min-width: 640px) {
+    width: 584px;
+  }
+}
+
+.confirm-modal-header-bar {
+  height: 17px;
+  @apply absolute w-full bg-po-yellowmedium flex justify-center;
+}

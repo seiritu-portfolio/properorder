@@ -1,0 +1,9 @@
+.choose-location-modal-container {
+  width: 95vw;
+}
+
+@media (min-width: 640px) {
+  .choose-location-modal-container {
+    width: 520px;
+  }
+}

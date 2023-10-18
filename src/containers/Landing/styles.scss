@@ -1,0 +1,35 @@
+.back {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-title {
+  font-family: Sorts Mill Goudy, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7rem;
+  line-height: 1.437em;
+  align-items: center;
+  letter-spacing: -0.004em;
+
+  @media (min-width: 360px) {
+    font-size: 1.8rem;
+  }
+
+  @apply text-black;
+}
+
+.current-location-text {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.recent-addresses-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-use {
+  font-size: 18px;
+  line-height: 26px;
+}

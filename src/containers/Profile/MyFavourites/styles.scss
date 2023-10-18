@@ -1,0 +1,16 @@
+.seller-tag {
+  position: absolute;
+  top: 14px;
+  left: 8px;
+}
+
+.remove-product-ff-modal-container {
+  @apply flex flex-col bg-white py-6 px-8 items-center;
+  width: 90vw;
+}
+
+@media (min-width: 640px) {
+  .remove-product-ff-modal-container {
+    width: 602px;
+  }
+}

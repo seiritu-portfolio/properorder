@@ -1,0 +1,86 @@
+.breadcrumbs-home {
+  &:hover {
+    .breadcrumbs-icon {
+      fill: #E27F03;
+    }
+  }
+}
+
+.card-heading-home {
+  font-size: 0.77rem;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 0.815rem;
+  }
+}
+
+.home-search-result {
+  margin-top: 0.5rem;
+}
+
+$product-title-font-size: 1.1rem;
+$product-title-line-height: 1.25;
+$product-title-lines-to-show: 2;
+
+.product-title {
+  display: -webkit-box;
+  max-height: $product-title-font-size*$product-title-line-height*$product-title-lines-to-show; /* Fallback for non-webkit */
+  font-size: $product-title-font-size;
+  line-height: $product-title-line-height;
+  -webkit-line-clamp: $product-title-lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 800;
+}
+
+.product-title.one-line {
+  -webkit-line-clamp: 1;
+}
+
+$product-description-font-size: 0.8rem;
+$product-description-line-height: 1.25;
+$product-description-lines-to-show: 2;
+
+.product-description {
+  @apply text-po-graymain;
+  display: -webkit-box;
+  max-height: $product-description-font-size*$product-description-line-height*$product-description-lines-to-show; /* Fallback for non-webkit */
+  font-size: $product-description-font-size;
+  line-height: $product-description-line-height;
+  -webkit-line-clamp: $product-description-lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0.5rem 0;
+}
+
+.product-description * {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  font-style: inherit !important;
+}
+
+.home-categories-container {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-x: scroll;
+}
+
+.home-categories-container::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+
+.home-details-read-spin {
+  padding-top: 64px;
+  @apply flex flex-row items-center justify-center pb-12;
+
+  @media only screen and (min-width: 1024px) {
+    padding-top: 36px;
+  }
+}
+
+.tab-underline {
+  height: 0.15rem;
+}

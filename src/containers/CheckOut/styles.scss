@@ -1,0 +1,52 @@
+.confirm-order-detail-text {
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 2.166em;
+
+  @apply text-black;
+
+  margin-top: 2.5rem;
+  @media (min-width: 840px) {
+    margin-top: 0;
+  }
+}
+
+.check-out-sub-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.375em;
+
+  @apply uppercase
+}
+
+.check-out-item-shadow-sm {
+  box-shadow: 0 4px 18px rgba(129, 129, 142, 0.1);
+}
+
+.check-out-payment-item-info {
+  @apply text-xs font-bold tracking-tightest leading-6;
+}
+
+.check-out-order-edit-button {
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.357em;
+  letter-spacing: -0.0107em;
+
+  @apply text-po-blue;
+}
+
+.cart-item-order-view-date {
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.357em;
+  letter-spacing: -0.0107em;
+
+  @apply text-black;
+}
+
+.cart-item-order-view-discount-info {
+  font-size: 0.625rem;
+  line-height: 1.357em;
+  letter-spacing: -0.0107em;
+}

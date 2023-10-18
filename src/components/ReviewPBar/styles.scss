@@ -1,0 +1,13 @@
+.label {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.388em;
+  letter-spacing: -0.008em;
+}
+
+.percent {
+  width: 70vw;
+  @media (min-width: 768px) {
+    width: 40vw;
+  }
+}

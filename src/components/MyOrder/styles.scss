@@ -1,0 +1,108 @@
+.my-order-bar {
+  width: 21.25rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-order-bar-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+// cart
+.cart-info-des {
+  font-size: 0.875rem;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+
+  @apply font-semibold;
+}
+
+.cart-info-total {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.333em;
+}
+
+// cart item
+.cart-item-sub-container {
+  background: #FFFDFA;
+  box-shadow: 0 10px 40px rgba(7, 41, 72, 0.06);
+}
+
+.cart-item-delivery-date {
+  font-weight: 600;
+  font-size: 0.78rem;
+
+  @apply text-black;
+}
+
+.cart-item-delivery-date-btn {
+  font-weight: bold;
+  font-size: 0.78rem;
+
+  @apply text-po-blue underline;
+}
+
+.cart-item-price-text {
+  font-weight: 600;
+  font-size: 0.625rem;
+  line-height: 1.4em;
+  letter-spacing: -0.015em;
+
+  @apply text-po-graymain;
+}
+
+.cart-item-subtotal {
+  font-weight: 700;
+  font-size: 0.6875rem;
+  line-height: 1.363em;
+  letter-spacing: -0.015em;
+
+  @apply text-black;
+}
+
+.add-weight-modal-container {
+  width: 80vw;
+}
+
+@media (min-width: 640px) {
+  .add-weight-modal-container {
+    width: 400px;
+  }
+}
+
+.select-date-modal-container {
+  width: 80vw;
+}
+
+@media (min-width: 640px) {
+  .select-date-modal-container {
+    width: 482px;
+  }
+}
+
+.select-delivery-date-text {
+  font-size: 1.125rem;
+  line-height: 1.388em;
+  letter-spacing: -0.008em;
+  padding: 0.5rem;
+}
+
+.my-order-bottom-text {
+  font-weight: normal;
+  font-size: 0.6875rem;
+  line-height: 1.363em;
+  letter-spacing: -0.013em;
+  align-self: center;
+  margin-bottom: 10px;
+  @apply text-po-graydark;
+}
+
+
+.select-container {
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+  @apply border rounded-lg p-1 mx-0.5 bg-white;
+}

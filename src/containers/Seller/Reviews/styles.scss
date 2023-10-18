@@ -1,0 +1,38 @@
+.review-item-user-name {
+  font-weight: bold;
+  font-size: 1.625rem;
+  line-height: 1.384em;
+
+  @apply text-black;
+}
+
+.review-item-date {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.667em;
+
+  @apply text-po-graymain;
+
+  &__bold {
+    font-weight: bold;
+  }
+}
+
+.review-item-headline {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.717em;
+
+  display: flex;
+  align-items: center;
+
+  @apply text-black flex-1;
+}
+
+.review-item-description {
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.667em;
+
+  @apply text-black;
+}

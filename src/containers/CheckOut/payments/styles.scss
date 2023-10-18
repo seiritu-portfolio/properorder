@@ -1,0 +1,9 @@
+.add-payment-modal-container {
+  width: 95vw;
+}
+
+@media (min-width: 768px) {
+  .add-payment-modal-container {
+    width: 750px;
+  }
+}

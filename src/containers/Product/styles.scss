@@ -1,0 +1,68 @@
+.product-header {
+  height: 5rem;
+
+  @media only screen and (min-width: 768px) {
+    height: 265px;
+    background: rgba(255, 230, 186, 0.7);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 50% 75%, 0 100%);
+  }
+}
+
+
+.product-badge-gold {
+  background: linear-gradient(274.3deg, #E27F03 1.29%, #FAC37F 93.28%);
+  border-radius: 5px;
+}
+
+.product-badge-blue {
+  background: linear-gradient(106.29deg, #7AC1F0 5.79%, #0A86D9 100%);
+  border-radius: 5px;
+}
+
+.product-badge-red {
+  background: linear-gradient(106.29deg, #F36262 5.79%, #F36262 5.8%, #B50F0E 95.58%);;
+  border-radius: 5px;
+}
+
+.highlighted-border {
+  border: 1px solid #FFE6BA;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px rgba(255, 170, 19, 0.2);
+}
+
+.failure-border {
+  border: 1px solid rgb(243, 98, 98);
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 3px rgba(243, 98, 98, 0.30);
+}
+
+.fixed-bottom-container {
+  flex-shrink: 0;
+  padding: 0 16px 16px;
+  z-index: 111;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .fixed-bottom-container {
+    position: relative;
+    width: auto;
+    padding: 0;
+  }
+
+  //.description-scrollable-container {
+  //max-height: 34rem;
+  //}
+}
+
+.description-scrollable-container {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  //overflow-x: hidden;
+  //max-height: 24rem;
+}

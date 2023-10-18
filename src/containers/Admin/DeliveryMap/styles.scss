@@ -1,0 +1,120 @@
+.poly {
+  fill: rgb(180, 200, 180);
+  cursor: pointer;
+  stroke: #555;
+  stroke-width: 1;
+}
+
+.poly:hover {
+  opacity: 0.5;
+}
+
+.poly.region-price {
+  fill: rgba(27, 122, 233, 0.41);
+}
+
+
+.poly.sel {
+  fill: rgb(110, 231, 183);
+}
+
+.poly.price {
+  //fill: #1B7AE9;
+  fill: rgba(27, 122, 233, 0.41);
+}
+
+.poly.skip {
+  fill: #ddd;
+  cursor: default;
+  stroke-width: 0;
+}
+
+.poly.skip:hover {
+  opacity: 1;
+}
+
+.townCell {
+  font-size: 11px;
+  @apply text-left pl-1 text-po-graydark cursor-pointer py-0.5;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.townCell.region-price {
+  color: white;
+  background: rgba(27, 122, 233, 0.41);
+}
+
+
+.townCell:hover {
+  @apply text-po-yellowdark bg-po-yellowextralight;
+}
+
+.townCell.sel {
+  background: rgb(110, 231, 183);
+}
+
+.townCell.price {
+  color: white;
+  //@apply bg-po-blue;
+  background: rgba(27, 122, 233, 0.41);
+}
+
+.regionHeader {
+  @apply flex h-12 2xl:h-10 justify-between items-center mt-1 border-2 bg-po-graymedium;
+}
+
+.choose-price-modal-container {
+  width: 80vw;
+}
+
+@media (min-width: 640px) {
+  .choose-price-modal-container {
+    width: 400px;
+  }
+}
+
+.townCell.filtered {
+  color: white;
+  background: rgba(255, 143, 3, 0.65);
+}
+
+
+.poly.filtered {
+  fill: rgba(255, 143, 3, 0.65);
+}
+
+.delivery-map-select-price {
+  font-size: 0.7rem;
+  line-height: 1em;
+  @apply mr-1 ml-1 bg-po-primary text-po-black font-bold px-1 rounded py-1 transform duration-300 ease-out hover:bg-po-primaryhover;
+}
+
+.region-container {
+
+  @apply w-auto;
+
+  @media (min-width: 1400px) {
+    @apply w-1/5;
+  }
+
+  @apply flex 2xl:w-1/4 items-start;
+}
+
+.towns-container {
+  min-width: 14rem;
+  @apply flex flex-1 border-2;
+}
+
+.delivery-main-map {
+  min-height: calc(100vh - 60px);
+  @apply flex flex-1;
+}
+
+.town-price {
+  font-size: 12px;
+  @apply ml-2 font-semibold;
+}

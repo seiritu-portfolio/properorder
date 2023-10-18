@@ -1,0 +1,32 @@
+.auto-complete-container {
+  height: 3.4375rem;
+  @apply flex flex-row flex-1 items-center;
+}
+
+[data-reach-combobox] {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  font-size: 1rem;
+  position: relative;
+}
+
+[data-reach-combobox-input] {
+  outline: none;
+  padding: 0.6rem;
+}
+
+.data-reach-combobox-popover {
+  border: solid 1px hsla(0, 0%, 0%, 0.25);
+  background: hsla(0, 100%, 100%, 0.99);
+  font-size: 0.8rem;
+  @apply shadow-2xl rounded top-12 absolute w-full;
+}
+
+[data-reach-combobox-list] {
+  @apply py-0.5;
+}
+
+[data-reach-combobox-option] {
+  @apply cursor-pointer py-1 text-po-graydark;
+}

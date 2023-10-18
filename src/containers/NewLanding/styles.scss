@@ -1,0 +1,42 @@
+.landing-chicmac {
+  width: 70%;
+  @apply object-cover mt-6;
+}
+
+.landing-seller-item-img-container {
+  padding-bottom: 50%;
+
+  @apply relative rounded-xl overflow-hidden;
+}
+
+.landing-new-user-header-container {
+  padding-bottom: 680px;
+}
+
+.landing-new-user-discover-container {
+  background-color: #FFFFFFBF;
+  margin-top: 0;
+
+  @apply max-w-full md:max-w-screen-xl flex flex-col rounded-xl;
+
+  @media only screen and (min-width: 500px) {
+    margin-top: 100px;
+  }
+
+  @media only screen and (min-width: 640px) {
+    margin-top: 0;
+  }
+
+}
+
+.landing-new-user-middle-item {
+  padding-bottom: 30%;
+
+  @apply relative rounded-xl overflow-hidden;
+}
+
+.landing-product-item-container {
+  width: 17.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}

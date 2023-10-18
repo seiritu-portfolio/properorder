@@ -1,0 +1,51 @@
+.login-with {
+  font-weight: 400;
+  font-size: 0.9rem;
+
+  @apply text-gray;
+}
+
+.container-auth {
+  flex: 1 0 auto;
+}
+
+.container-verification-code {
+  height: 50px;
+  width: 300px;
+
+  @media only screen and (min-width: 640px) {
+    width: 340px;
+  }
+
+}
+
+.character {
+  width: 3.5rem !important;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #4F4F4F;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #BFBFC6;
+  border-radius: 0.625rem;
+  margin-left: 0.5rem;
+
+  @media only screen and (min-width: 640px) {
+    width: 4rem !important;
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+
+}
+
+.character:first-child {
+  margin-left: 0;
+}
+
+.character--inactive {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.character--selected {
+  border: 1px solid #FFE6BA !important;
+  box-shadow: 0 0 10px 3px rgba(255, 170, 19, 0.2) !important;
+}

@@ -1,0 +1,9 @@
+.add-review-modal-container {
+  width: 80vw;
+}
+
+@media (min-width: 640px) {
+  .add-review-modal-container {
+    width: 580px;
+  }
+}

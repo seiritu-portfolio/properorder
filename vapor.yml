@@ -1,0 +1,7 @@
+id: 15979
+name: properorder
+environments:
+  production:
+    storage: properorder
+  staging:
+    storage: properorder-staging

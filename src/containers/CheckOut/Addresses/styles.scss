@@ -1,0 +1,38 @@
+.add-address-modal-container {
+  width: 95vw;
+  max-height: 96vh;
+}
+
+@media (min-width: 1024px) {
+  .add-address-modal-container {
+    width: 737px;
+  }
+}
+
+.delete-address-location-text {
+  max-width: 200px;
+  @apply text-xs tracking-tightest text-po-graymain;
+}
+
+.choose-address-item-container {
+  background: #FFFFFF;
+  /* pop-up */
+
+  box-shadow: 0 8px 18px rgba(129, 129, 142, 0.2);
+  border-radius: 10px;
+}
+
+.choose-address-page-item-container {
+  width: 30px;
+  height: 30px;
+
+  @apply flex flex-row border items-center justify-center;
+}
+
+.choose-address-page-item-text {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  color: #000000;
+}

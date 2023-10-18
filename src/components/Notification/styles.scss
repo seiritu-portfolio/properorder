@@ -1,0 +1,51 @@
+.div-cart {
+  background: #FFFFFF;
+
+  box-shadow: 0 8px 12px rgba(129, 129, 142, 0.2);
+  width: 55px;
+  height: 55px;
+
+  border-radius: 36px;
+
+  @media only screen and (min-width: 768px) {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+.div-cart-badge {
+  @apply bg-po-red text-white text-xs font-bold rounded-full text-center absolute;
+  width: 20px;
+  height: 20px;
+  top: 4px;
+  right: 0;
+}
+
+.div-cart-container {
+  @apply relative;
+  width: 40px;
+  height: 40px;
+}
+
+.cart-anim {
+  animation: bounce 0.5s infinite;
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(30%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    animation: none;
+  }
+}
+
+.cart-anim-org {
+
+}

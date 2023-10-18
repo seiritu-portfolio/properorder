@@ -1,0 +1,29 @@
+.db-seller-logo {
+  width: 4.104rem;
+  height: 2.729rem;
+}
+
+.db-product-th {
+  @apply px-4 py-3 text-left text-sm font-medium text-gray-500;
+}
+
+.db-product-filter-label {
+  @apply mb-2 font-semibold text-base;
+}
+
+.db-product-price-input {
+  width: 35%;
+  min-width: 4rem;
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+  @apply py-3 px-2 text-sm font-semibold focus:outline-none border border-po-graylight rounded-lg ;
+}
+
+.db-product-select-container {
+  box-shadow: 0 5px 20px rgba(7, 41, 72, 0.06);
+  @apply border rounded-lg border-po-graylight px-2 py-1 bg-white;
+}
+
+.db-product-loader-container {
+  padding-top: 64px;
+  @apply flex flex-row items-center justify-center pb-12;
+}
